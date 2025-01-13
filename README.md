@@ -5,11 +5,11 @@ Here i describe, how to add multiple accounts to Git Bash to each when needed
 
 Create two ssh keys
 ```bash
-`ssh-keygen -t rsa -b 4096 -C "email1@example.com"`
+ssh-keygen -t rsa -b 4096 -C "email1@example.com"
 ```
 and second one 
 ```bash
-`ssh-keygen -t rsa -b 4096 -C "email2@example.com"`
+ssh-keygen -t rsa -b 4096 -C "email2@example.com"
 ```
 
 **When prompted**:
