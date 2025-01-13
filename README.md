@@ -72,7 +72,6 @@ Copy your generated public (.pub extension) key and insert it in the ssh field
 Same for another account
 
 Now to `clone` git repos you should use SSH
-![[Pasted image 20250113131802.png]]
 
 copy ssh key and insert it into git clone command so it would look like this:
 ```
