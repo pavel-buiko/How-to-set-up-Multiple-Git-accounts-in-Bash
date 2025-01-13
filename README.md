@@ -38,12 +38,19 @@ Create file, if it isn't there
 touch config #without extension
 ```
 Open the file in any text editor or IDE and add the following configuration:
+
 In field `Host` enter an alias for the account (use something memorable; you'll use it later).
+
 In `HostName` enter `github.com` 
+
 `User` field should contain `git`
+
 In `IdentutyFile` specify path to your ssh private(without extesion `.pub`) key.
+
 You may or not specify IdentityOnly field, it is not necessarily.
+
 Then repeat the same for another account
+
 ```text
 Host job-account 
 HostName github.com
@@ -59,6 +66,7 @@ IdentitiesOnly yes
 ```
 
 Open `github.com`, account settings and folder `SSH and GPG keys` add new SSH key. 
+
 Copy your generated public (.pub extension) key and insert it in the ssh field
 
 Same for another account
