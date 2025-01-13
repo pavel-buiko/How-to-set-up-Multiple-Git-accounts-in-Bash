@@ -17,7 +17,9 @@ ssh-keygen -t rsa -b 4096 -C "email2@example.com"
 Enter file in which to save the key (/c/Users/User/.ssh/id_rsa):
 ```
 you can skip that pressing `Enter` and use default location 
+
 or insert your own file name `(by default it's id_rsa)`
+
 Alternatively you may specify another location by typing `/d/git/ssh-keys/filename` ==(Not Recommended)==
 
 Add keys to SSH agent
